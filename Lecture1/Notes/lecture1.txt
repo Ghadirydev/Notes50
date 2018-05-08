@@ -1,0 +1,74 @@
+gitclone <url> downloads a repository from the url and ut it in a folder
+
+git add <file(s) name> how to save before you commit
+git commit -m "describe the change" takes the file that you added  and add the github
+	changes
+
+git status tells you whats going on inside of your repository it gives you info of it.
+git push it takes no arguments send all your commits to your github
+
+git pull download the latest changes in the github this is used when you have multiple
+	programmers working on it.
+
+git log history of all the commits you've made
+
+git reset if you've made some changes and relliaze that you've messed up you can use 
+	git reset --hard <commit number> will return to this commit
+
+<table>
+	<tr>
+		<th> </th> // header
+		<th> </th>
+		<th> </th>
+	</tr>
+
+	<tr>
+		<td> </td>
+		<td> </td> //the content
+		<td> </td>
+	</tr>
+<table>
+
+to collect info from a user we use a form 
+
+<form>
+	<input type="text" name="name">
+	<button> Submit </button>
+</form>
+
+each html tag represents a a node in the DOM
+
+	CSS
+inline styling
+	<h1 style="color:blue"> Hello World </h1>
+
+you can put style in the head of the html document 
+
+<style>	
+	h1 {
+		color:blue;
+		text-align: center;
+	}
+</style>
+
+having css in a different file this make it easier to use css in multiple 
+css files.
+	<link rel="stylesheet" href="style.css">
+
+id for unique names class for multiple things
+
+in css file id is accessed using #
+in css file class is accessed using .
+
+**** you can use class and id's in a tag css will choose the most specific one
+	the child's class and id has higher precedence.
+
+gitup pages allows you to take a reposity and deploy it to the internet so that
+	people can see them
+	
+	Steps
+	1.	go to your github homepage the repository's home page
+	2.	click on settings
+	3.	source -> deploy from master branch -> save
+	4. 	slide down and go to the url
+
